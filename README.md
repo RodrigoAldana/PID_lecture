@@ -4,7 +4,7 @@
 
 Este proyecto proporciona un entorno de simulación en MATLAB para un cabezal extrusor de una impresora 3D, el cual se desplaza unidireccionalmente a lo largo de un riel. Este sistema simula el proceso de posicionamiento preciso necesario para depositar material fundido en ubicaciones específicas, un componente esencial en la impresión 3D. Aunque típicamente una impresora 3D utiliza tres rieles para permitir movimientos tridimensionales, este modelo se ha simplificado a un solo riel para facilitar su comprensión y análisis.
 
-El cabezal, que está equipado con un motor, se mueve a lo largo del riel, mientras que un sensor monitorea constantemente la posición \(x(t)\) del extrusor. El principal desafío radica en determinar cómo ajustar \(u(t)\) para que \(x(t)\) alcance una posición objetivo \(x_{\text{ref}}\).
+El cabezal, que está equipado con un motor, se mueve a lo largo del riel, mientras que un sensor monitorea constantemente la posición del extrusor. El principal desafío radica en determinar cómo ajustar el control para que el extrusor alcance una posición objetivo.
 
 ## Instrucciones
 
